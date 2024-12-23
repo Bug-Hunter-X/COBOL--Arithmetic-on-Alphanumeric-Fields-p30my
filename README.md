@@ -1,0 +1,1 @@
+This example demonstrates a common error in COBOL programs.  Arithmetic operations should only be performed on numeric fields (PIC 9, PIC 9V99, etc.).  Attempting arithmetic on alphanumeric fields (PIC X) can lead to unexpected and difficult-to-debug issues. The solution involves correctly defining numeric fields for the intended arithmetic operations. 
